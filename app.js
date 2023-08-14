@@ -12,9 +12,9 @@ const btn = document.getElementById('btn');
 const color = document.querySelector('.color');
 
 btn.addEventListener('click', () => {
-  const randomNum = getRandomNumber();
-  document.body.style.backgroundColor = colorPallete[randomNum];
-  color.textContent = colorPallete[randomNum];
+  const colorIndex = getRandomNumber();
+  document.body.style.backgroundColor = colorPallete[colorIndex];
+  color.textContent = colorPallete[colorIndex];
 });
 
 const getRandomNumber = () => {
