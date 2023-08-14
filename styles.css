@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Roboto', sans-serif;
   background: hsl(210, 36%, 96%);
@@ -14,12 +15,15 @@ body {
   line-height: 1.5;
   font-size: 0.9rem;
 }
+
 ul {
   list-style-type: none;
 }
+
 a {
   text-decoration: none;
 }
+
 h1,
 h2,
 h3,
@@ -29,18 +33,23 @@ h4 {
   line-height: 1.25;
   margin-bottom: 0.75rem;
 }
+
 h1 {
   font-size: 3rem;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 h3 {
   font-size: 1.25rem;
 }
+
 h4 {
   font-size: 0.875rem;
 }
+
 nav {
   background: #fff;
   height: 3rem;
@@ -48,6 +57,7 @@ nav {
   align-items: center;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
+
 .nav-center {
   width: 90vw;
   max-width: 620px;
@@ -56,13 +66,16 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
+
 .nav-center h4 {
   margin-bottom: 0;
   color: hsl(205, 78%, 60%);
 }
+
 .nav-links {
   display: flex;
 }
+
 nav a {
   text-transform: capitalize;
   font-weight: 700;
@@ -71,6 +84,7 @@ nav a {
   letter-spacing: 0.1rem;
   margin-right: 1rem;
 }
+
 nav a:hover {
   color: hsl(205, 78%, 60%);
 }
@@ -84,6 +98,7 @@ main {
 .container {
   text-align: center;
 }
+
 .container h2 {
   background: #222;
   color: #fff;
@@ -111,6 +126,7 @@ main {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all 0.3s linear;
 }
+
 .btn-lg:hover {
   color: #fff;
   background: #222;
