@@ -1,0 +1,19 @@
+{
+  "name": "color-flip",
+  "version": "1.0.0",
+  "description": "Simple plain JS color flipping app.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harislapo/color-flip-js.git"
+  },
+  "author": "Haris Lapo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harislapo/color-flip-js/issues"
+  },
+  "homepage": "https://github.com/harislapo/color-flip-js#readme"
+}
